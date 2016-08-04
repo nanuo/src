@@ -1,0 +1,96 @@
+
+
+/*颜色统一*/
+/*// 主题色*/
+@theme-color:#fc3a3e;
+@blue-color:#4dade5;
+@white-b:#fff;
+@white-f:#fff;
+/*底色*/
+@under-b:#f1f1f1;
+/*浅色字体，用于输入框、价格等*/
+@light-color:#BDBDBD;
+/*深色字体，主要字体颜色*/
+@main-color:#333;
+/*背景颜色*/
+@mainbackground:#fff;
+@background-color:#f1f1f1;
+/*边框颜色*/
+@border-color:#e7e7e7;
+/*重点红色*/
+@focus-color-b:#f15353;
+@focus-color-f:#f15353;
+/*灰色调，用于退出，禁用标签等*/
+@gray:#c8c9cb;
+/*主色调兄弟色调，用于按钮等*/
+@focus-color-siblings-b:#4eade5;
+@focus-color-siblings-f:#4eade5;
+
+/*左右固定间隙宽度*/
+@paddinglr:.75rem;
+/*上下间距*/
+@marginlist:.5rem;
+/*小号字号*/
+@fontsizesmall: .58rem;
+
+.borderradius(@radius: 50px){
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+a{
+	.borderradius(50px);
+}
+
+@boxbackground:#4dade5;
+.box{
+	& a{
+		color: #fff;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 5px;
+		background:@boxbackground;
+		.borderradius;
+	}
+	& span{
+		color: #fff;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 5px;
+		background:red;
+		.borderradius;
+
+	}
+}
+
+
+
+.box2{
+
+	& a{
+		color: #fff;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 5px;
+		background:@boxbackground;
+		.borderradius(5px);
+	}
+	& span{
+		color: #fff;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 5px;
+		background:red;
+		.borderradius(5px);
+
+	}
+}
+
+
+.w{width: 266px;height: 78px;background: url(../images/level.png) 0 0 no-repeat;}
+.j{width: 270px;height: 60px;background: url(../images/zfbpay.png) 0 0 no-repeat;}
+.t{width: 290px;height: 100px;background: url(../images/tmall.png) 0 0 no-repeat;}

@@ -1,0 +1,89 @@
+/*1. @import (reference) "文件路径"; 
+　　将引入的文件作为样式库使用，因此文件中样式不会被直接编译为css样式规则。当前样式文件通过extend和mixins的方式引用样式库的内容。
+2. @import (inline) "文件路径"; 
+　　用于引入与less不兼容的css文件，通过inline配置告知编译器不对引入的文件进行编译处理，直接输出到最终输出。注意：引入的文件和当前文件会被编译为一个样式样式
+3. @import (less) "文件路径"; 
+　　默认使用该配置项，表示引入的文件为less文件。
+4. @import (css) "文件路径"; 
+　　表示当前操作为CSS中的@import操作。当前文件会输出一个样式文件，而被引入的文件自身为一个独立的样式文件
+5. @import (once) "文件路径"; 
+　　默认使用该配置项，表示对同一个资源仅引入一次。
+6. @import (multiple) "文件路径"; 
+　　表示对同一资源可引入多次。*/
+/*颜色统一*/
+/*// 主题色*/
+/*底色*/
+/*浅色字体，用于输入框、价格等*/
+/*深色字体，主要字体颜色*/
+/*背景颜色*/
+/*边框颜色*/
+/*重点红色*/
+/*灰色调，用于退出，禁用标签等*/
+/*主色调兄弟色调，用于按钮等*/
+/*左右固定间隙宽度*/
+/*上下间距*/
+/*小号字号*/
+a {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.box a {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: #4dade5;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.box span {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.box2 a {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: #4dade5;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.box2 span {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: red;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.w {
+  width: 266px;
+  height: 78px;
+  background: url(../images/level.png) 0 0 no-repeat;
+}
+.j {
+  width: 270px;
+  height: 60px;
+  background: url(../images/zfbpay.png) 0 0 no-repeat;
+}
+.t {
+  width: 290px;
+  height: 100px;
+  background: url(../images/tmall.png) 0 0 no-repeat;
+}

@@ -1,0 +1,47 @@
+body {
+  font-family: "微软雅黑", "Droid Sans", "Droid Sans Fallback", "Helvetica Neue", Helvetica, STHeiTi, sans-serif !important;
+  font-size: 14px;
+  color: #666;
+}
+ul,
+li,
+dl,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+button {
+  border: none;
+}
+a {
+  color: #595e69;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('../iconfont/iconfont.eot');
+  /* IE9*/
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */ url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/iconfont.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

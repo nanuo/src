@@ -1,0 +1,77 @@
+/*颜色统一*/
+/*// 主题色*/
+/*底色*/
+/*浅色字体，用于输入框、价格等*/
+/*深色字体，主要字体颜色*/
+/*背景颜色*/
+/*边框颜色*/
+/*重点红色*/
+/*灰色调，用于退出，禁用标签等*/
+/*主色调兄弟色调，用于按钮等*/
+/*左右固定间隙宽度*/
+/*上下间距*/
+/*小号字号*/
+a {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.box a {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: #4dade5;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.box span {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.box2 a {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: #4dade5;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.box2 span {
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  background: red;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.w {
+  width: 266px;
+  height: 78px;
+  background: url(../images/level.png) 0 0 no-repeat;
+}
+.j {
+  width: 270px;
+  height: 60px;
+  background: url(../images/zfbpay.png) 0 0 no-repeat;
+}
+.t {
+  width: 290px;
+  height: 100px;
+  background: url(../images/tmall.png) 0 0 no-repeat;
+}
